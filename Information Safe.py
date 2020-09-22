@@ -43,7 +43,7 @@ win = Tk()
 win.title('Password Storer')
 passkey = StringVar()
 
-text1 = ttk.Label(win,text="Enter The Passkey :")
+text1 = ttk.Label(win,text="Passkey :")
 text1.grid(row=1,column=0,sticky=W)
 input = ttk.Entry(win,width=30,textvariable=passkey)
 input.focus()
